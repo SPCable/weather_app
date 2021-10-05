@@ -1,2 +1,2 @@
 # weather_app
-![alt text](https://taiducfood.com/wp-content/uploads/2021/10/Poster-Weather-App.png)
+![alt text](https://i.ibb.co/SKdFxDN/Poster-Weather-App.png)
