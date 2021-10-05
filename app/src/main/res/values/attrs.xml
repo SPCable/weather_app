@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ToolbarCustomView">
+        <attr name="toolbar_title" format="string" />
+        <attr name="toolbar_left_image" format="reference" />
+        <attr name="toolbar_right_image" format="reference" />
+        <attr name="toolbar_background_color" format="color" />
+        <attr name="toolbar_show_left" format="boolean" />
+        <attr name="toolbar_show_right" format="boolean" />
+    </declare-styleable>
+
+
+    <declare-styleable name="NavigationBottomView">
+        <attr name="bottom_title" format="string" />
+    </declare-styleable>
+</resources>

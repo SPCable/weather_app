@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="710634d2-e194-42d3-8815-ae5d25b5fc08" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/paxcreation/weatherapp/domain/usecase/DeleteItemLocalUseCase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/paxcreation/weatherapp/presentation/utils/Math.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/paxcreation/weatherapp/data/local/db/dao/LocationDao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/paxcreation/weatherapp/data/local/db/dao/LocationDao.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/paxcreation/weatherapp/data/repo/LocationRepoImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/paxcreation/weatherapp/data/repo/LocationRepoImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/paxcreation/weatherapp/data/repo/LocationSearchRepoImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/paxcreation/weatherapp/data/repo/LocationSearchRepoImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/paxcreation/weatherapp/data/services/ApiService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/paxcreation/weatherapp/data/services/ApiService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/paxcreation/weatherapp/domain/model/WeatherSearch.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/paxcreation/weatherapp/domain/model/WeatherSearch.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/paxcreation/weatherapp/domain/repo/LocationRepo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/paxcreation/weatherapp/domain/repo/LocationRepo.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/paxcreation/weatherapp/domain/repo/LocationSearchRepo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/paxcreation/weatherapp/domain/repo/LocationSearchRepo.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/paxcreation/weatherapp/domain/usecase/GetWeathersLocalUseCase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/paxcreation/weatherapp/domain/usecase/GetWeathersLocalUseCase.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/paxcreation/weatherapp/presentation/extensions/ViewExtensions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/paxcreation/weatherapp/presentation/extensions/ViewExtensions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/paxcreation/weatherapp/presentation/ui/adapter/ItemSearchNameAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/paxcreation/weatherapp/presentation/ui/adapter/ItemSearchNameAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/paxcreation/weatherapp/presentation/ui/adapter/ListWeatherAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/paxcreation/weatherapp/presentation/ui/adapter/ListWeatherAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/paxcreation/weatherapp/presentation/ui/adapter/LocationSreachAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/paxcreation/weatherapp/presentation/ui/adapter/LocationSreachAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/paxcreation/weatherapp/presentation/ui/adapter/LocationWeatherDayAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/paxcreation/weatherapp/presentation/ui/adapter/LocationWeatherDayAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/paxcreation/weatherapp/presentation/ui/base/fragments/BaseFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/paxcreation/weatherapp/presentation/ui/base/fragments/BaseFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/paxcreation/weatherapp/presentation/ui/fragments/list/ListFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/paxcreation/weatherapp/presentation/ui/fragments/list/ListFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/paxcreation/weatherapp/presentation/ui/fragments/list/ListViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/paxcreation/weatherapp/presentation/ui/fragments/list/ListViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/paxcreation/weatherapp/presentation/ui/fragments/search/SearchFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/paxcreation/weatherapp/presentation/ui/fragments/search/SearchFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/paxcreation/weatherapp/presentation/ui/main/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/paxcreation/weatherapp/presentation/ui/main/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/paxcreation/weatherapp/presentation/ui/main/MainViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/paxcreation/weatherapp/presentation/ui/main/MainViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/item_weather_list.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/item_weather_list.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1wS0PIpFpVK1ExZCQ5OH8TxMMa8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="710634d2-e194-42d3-8815-ae5d25b5fc08" name="Default Changelist" comment="" />
+      <created>1628436656975</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1628436656975</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

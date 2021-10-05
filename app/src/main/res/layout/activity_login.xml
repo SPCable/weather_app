@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        tools:ignore="ContentDescription">
+
+        <TextView
+            android:id="@+id/button_Skip2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/or"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/button_Facebook"
+            app:layout_constraintStart_toStartOf="@+id/button_Facebook"
+            app:layout_constraintTop_toBottomOf="@+id/button_Facebook" />
+
+        <ProgressBar
+            android:id="@+id/loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="24dp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="@+id/button_Skip"
+            app:layout_constraintStart_toStartOf="@+id/button_Skip"
+            app:layout_constraintTop_toBottomOf="@+id/button_Skip" />
+
+        <ImageButton
+            android:id="@+id/button_Google"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="#00FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            app:srcCompat="@drawable/button_gg"
+            android:contentDescription="@string/button_google" />
+
+        <ImageButton
+            android:id="@+id/button_Facebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="#00FFFFFF"
+            app:layout_constraintEnd_toEndOf="@+id/button_Google"
+            app:layout_constraintStart_toStartOf="@+id/button_Google"
+            app:layout_constraintTop_toBottomOf="@+id/button_Google"
+            app:srcCompat="@drawable/button_fb"
+            android:contentDescription="@string/button_facebook" />
+
+        <TextView
+            android:id="@+id/button_Skip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/button_skip"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="@+id/button_Skip2"
+            app:layout_constraintStart_toStartOf="@+id/button_Skip2"
+            app:layout_constraintTop_toBottomOf="@+id/button_Skip2" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="187dp"
+            android:layout_height="195dp"
+            android:layout_marginTop="120dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/login_with"
+            android:textColor="#FFFFFF"
+            android:textSize="70sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/button_Google"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/button_Google"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

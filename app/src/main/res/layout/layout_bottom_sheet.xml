@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+
+        <variable
+            name="onClickLeft"
+            type="android.view.View.OnClickListener" />
+
+        <variable
+            name="onClickRight"
+            type="android.view.View.OnClickListener" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/bottomSheet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent">
+
+
+        <ImageView
+            android:id="@+id/imageBackground"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar_fragment"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <include
+            android:id="@+id/includeWeather"
+            layout="@layout/fragment_home"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar_fragment" />
+
+        <com.paxcreation.weatherapp.presentation.ui.custom_view.ToolbarCustomView
+            android:id="@+id/toolbar_fragment"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rouded"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:onClickLeft="@{onClickLeft}"
+            app:onClickRightNav="@{onClickRight}"
+            app:toolbar_left_image="@drawable/ic_baseline_check_50"
+            app:toolbar_right_image="@drawable/ic_baseline_close_50"
+            app:toolbar_show_left="true"
+            app:toolbar_show_right="true"
+            app:toolbar_title="Weather" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</layout>
